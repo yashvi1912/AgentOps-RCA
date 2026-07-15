@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "root_cause": "database_overload",
+    "severity": "high",
+    "logs": [
+      "Database connection timeout",
+      "Query execution exceeded timeout",
+      "Connection pool exhausted"
+    ]
+  },
+  {
+    "id": 2,
+    "root_cause": "memory_leak",
+    "severity": "high",
+    "logs": [
+      "OutOfMemoryError",
+      "Memory usage exceeded 95%",
+      "Application terminated unexpectedly"
+    ]
+  },
+  {
+    "id": 3,
+    "root_cause": "redis_down",
+    "severity": "medium",
+    "logs": [
+      "Redis connection refused",
+      "Failed to connect to cache",
+      "Cache unavailable"
+    ]
+  },
+  {
+    "id": 4,
+    "root_cause": "cpu_spike",
+    "severity": "medium",
+    "logs": [
+      "CPU usage exceeded 95%",
+      "High processing latency",
+      "Worker threads overloaded"
+    ]
+  },
+  {
+    "id": 5,
+    "root_cause": "disk_full",
+    "severity": "high",
+    "logs": [
+      "No space left on device",
+      "Write operation failed",
+      "Disk utilization reached 100%"
+    ]
+  }
+]
